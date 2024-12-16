@@ -7,4 +7,3 @@ public class Mocha : CoffeeMachine
         Console.WriteLine($"Готовим {CoffeeTypes[userCoffeeChoice - 1]}, добавляем кубков сахара - {userSugarChoice}...");
         Console.WriteLine($"{CoffeeTypes[userCoffeeChoice - 1]} готов, приятного аппетита!");
     }
-}

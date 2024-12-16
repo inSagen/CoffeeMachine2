@@ -1,5 +1,6 @@
-﻿using System;
+using System;
 using CoffeeMachine2;
+
 public class Program
 {
     static void Main(string[] args)
@@ -15,4 +16,3 @@ public class Program
         coffee.CookCoffee(userCoffeeChoice, userSugarChoice);
     }
 }
-

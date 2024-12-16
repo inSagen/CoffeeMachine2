@@ -1,19 +1,18 @@
-﻿using System.Diagnostics;
 
 namespace CoffeeMachine2;
 
 public class CoffeeMachine
 {
-    public string[] CoffeeTypes = {"Латте", "Эспрессо", "Американо", "Капучино", "Мокко"};
+    private string[] CoffeeTypes = {"Латте", "Эспрессо", "Американо", "Капучино", "Мокко"};
 
     public void ShowCoffeeMenu()
     {
-        Console.WriteLine("Меню:");
         for (int i = 0; i < CoffeeTypes.Length; i++)
         {
             Console.WriteLine($"{i + 1}. {CoffeeTypes[i]}");
         }
     }
+
     public virtual void MakeCoffee(int userCoffeeChoice, int userSugarChoice)
     {
         Console.WriteLine("Готовим кофе, добавляем сахар...");
@@ -49,6 +48,3 @@ public class CoffeeMachine
                 break;
         }
     }
-
-
-}

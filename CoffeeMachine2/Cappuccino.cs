@@ -7,4 +7,3 @@ public class Cappuccino : CoffeeMachine
         Console.WriteLine($"Готовим {CoffeeTypes[userCoffeeChoice - 1]}, добавляем {userSugarChoice} ложек сахара...");
         Console.WriteLine($"{CoffeeTypes[userCoffeeChoice - 1]} готов, приятного аппетита!");
     }
-}
